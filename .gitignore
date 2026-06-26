@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# MLflow
+mlruns/
+
+# Large regenerable data files (re-run exp/run_exp2.py to regenerate)
+data/paths_train.npz
+data/paths_test.npz
+data/paths_modified.npz
